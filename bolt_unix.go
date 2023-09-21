@@ -1,5 +1,5 @@
-//go:build !windows && !plan9 && !solaris && !aix
-// +build !windows,!plan9,!solaris,!aix
+//go:build !windows && !plan9 && !solaris && !aix && !android
+// +build !windows,!plan9,!solaris,!aix,!android
 
 package bbolt
 
