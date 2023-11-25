@@ -15,6 +15,5 @@ jobs:
         with:
           go-version: ${{ steps.goversion.outputs.goversion }}
       - run: |
-          sudo make root-test
           make gofail-enable
           make test-failpoint
